@@ -11,6 +11,6 @@ class CalculatorTest extends TestCase
         $result = 42;
 
         // assert that your calculator added the numbers correctly!
-        $this->assertEquals(42, $result);
+        $this->assertEquals(41, $result);
     }
 }
