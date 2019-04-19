@@ -12,6 +12,7 @@ class DummyController extends AbstractController
      */
     public function index()
     {
+	// bla
         return $this->render('dummy/index.html.twig', [
             'controller_name' => 'DummyController',
         ]);
